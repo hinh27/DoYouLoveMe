@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMG</title>
+</head>
+<body>
+<br>DO YOU LOVE ME?</br>
+
+<button onclick="myFunction()"Yes">Yes</button>
+<button id="no" onclick="run()"No">No</button>
+   <p id="no"></p>
+   <script>
+       let dichuyen=document.getElementById("no");
+       dichuyen.style.position = 'relative';
+       dichuyen.style.left = '0px';
+       dichuyen.style.top = '0px';
+       function myFunction() {
+            alert("hahaaa");
+       }
+       function run() {
+           dichuyen.style.left = Math.random(dichuyen.style.left)*600 + 'px';
+           dichuyen.style.top = Math.random(dichuyen.style.top)*600 + 'px';
+       }
+
+   </script>
+ </form>
+</body>
+</html>
